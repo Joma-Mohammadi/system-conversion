@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { FiPlus, FiMinus} from "react-icons/fi";
+import { FiPlus} from "react-icons/fi";
+import { IoIosClose } from "react-icons/io";
 
 function FAQ() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -68,7 +69,7 @@ function FAQ() {
                 </h3>
 
                 {activeIndex === index ? (
-                  <FiMinus className="text-xl text-orange-500" />
+                  <IoIosClose className="text-xl text-orange-500" />
                 ) : (
                   <FiPlus className="text-xl text-[#1e3a63]" />
                 )}
