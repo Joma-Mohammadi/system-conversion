@@ -69,7 +69,7 @@ function FAQ() {
                 </h3>
 
                 {activeIndex === index ? (
-                  <IoIosClose className="text-xl text-orange-500" />
+                  <IoIosClose className="text-2xl text-orange-500" />
                 ) : (
                   <FiPlus className="text-xl text-[#1e3a63]" />
                 )}

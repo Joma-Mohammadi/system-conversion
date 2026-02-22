@@ -15,9 +15,7 @@ function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-[#162f4f]/95 via-[#162f4f]/95 to-transparent" />
 
       <div className="relative z-10 w-full">
-        <div
-          className=" max-w-[800px] ml-[6%] sm:ml-[10%]  md:ml-[12%]  lg:ml-[15%] px-4  sm:px-0  text-white "
-        >
+        <div className=" max-w-[800px] ml-[6%] sm:ml-[10%]  md:ml-[12%]  lg:ml-[15%] px-4  sm:px-0  text-white ">
           <span className="flex w-fit gap-2 backdrop-blur-sm bg-orange-400/20 items-center  text-orange-500 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full mb-4">
             <IoSettings className="text-sm" />
             SYSTEM CONVERSION
@@ -50,7 +48,13 @@ function Hero() {
             </div>
           </div>
 
-          <button className="flex items-center justify-center sm:justify-start gap-2 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md text-sm sm:text-base font-semibold w-full sm:w-auto">
+          <button
+            onClick={() =>
+              (window.location.href =
+                "https://hpspros.co.uk/services/water-heaters")
+            }
+            className="flex items-center justify-center sm:justify-start gap-2 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md text-sm sm:text-base font-semibold "
+          >
             <BsFillTelephoneFill className="text-lg" />
             Call 07852 121 346
           </button>
