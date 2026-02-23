@@ -27,15 +27,12 @@ function ServiceCard({ icon, title, description, features = [] }) {
         </ul>
       </div>
 
-      <button
-        onClick={() =>
-          (window.location.href =
-            "https://hpspros.co.uk/services/water-heaters")
-        }
-        className="border-2 border-slate-800 text-slate-700  font-semibold px-4 py-2 rounded-md hover:bg-slate-800 hover:text-white transition"
+      <a
+       href="tel:07852121346"
+        className="inline-flex  border-2 border-slate-800 text-slate-700  font-semibold px-4 py-2 rounded-md hover:bg-slate-800 hover:text-white transition"
       >
-        Call Us Now →
-      </button>
+       <p> Call Us Now →</p>
+      </a>
     </div>
   );
 }

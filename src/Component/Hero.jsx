@@ -50,7 +50,7 @@ function Hero() {
 
           <a
             href="tel:07852121346"
-            className="flex items-center justify-center sm:justify-start gap-2 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md text-sm sm:text-base font-semibold"
+            className="inline-flex  items-center justify-center sm:justify-start gap-2 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md text-sm sm:text-base font-semibold"
           >
             <BsFillTelephoneFill className="text-lg" />
             Call 07852 121 346

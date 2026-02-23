@@ -6,7 +6,6 @@ import TestimonialsSection from "./Component/TestimonialsSection.jsx";
 import ServiceAreas from "./Component/ServiceAreas.jsx";
 import FAQ from "./Component/FAQ.jsx";
 import CTASection from "./Component/CTASection.jsx";
-import Footer from "./Component/Footer.jsx"
 
 export default function App() {
   return (
@@ -20,7 +19,6 @@ export default function App() {
      <ServiceAreas/>
      <FAQ/>
      <CTASection/>
-     <Footer/>
     </div>
   );
 }

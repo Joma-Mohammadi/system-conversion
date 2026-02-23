@@ -23,28 +23,26 @@ function ServiceAreas() {
   ];
 
   return (
-    <section className="bg-[#1e3a63] py-24 text-white sm:py-0">
+    <section className="bg-[#1e3a63] py-20  text-white ">
       <div className="max-w-6xl mx-auto px-6 text-center">
-
         {/* Header */}
         <p className="text-orange-400 text-xs tracking-[3px] mb-4 font-semibold">
           SERVICE AREAS
         </p>
 
-        <h2 className="text-3xl text-[#102648] md:text-4xl font-bold mb-4">
+        <h2 className="text-3xl text-white md:text-4xl font-bold mb-4">
           Covering All of West London
         </h2>
 
         <p className="text-gray-300 text-sm max-w-2xl mx-auto mb-6 leading-relaxed">
-          Our system conversion engineers are available across all West London boroughs.
-          Book a free survey and get expert advice on upgrading your heating system.
+          Our system conversion engineers are available across all West London
+          boroughs. Book a free survey and get expert advice on upgrading your
+          heating system.
         </p>
 
         <p className="text-sm mb-12">
           Average Project Time:{" "}
-          <span className="text-orange-400 font-semibold">
-            2-3 Days
-          </span>
+          <span className="text-orange-400 font-semibold">2-3 Days</span>
         </p>
 
         {/* Areas Grid */}
@@ -69,10 +67,12 @@ function ServiceAreas() {
           Can't see your area? Give us a call — we cover many more locations!
         </p>
 
-        <div className="inline-block bg-orange-500 hover:bg-orange-600 transition px-7 py-3 rounded-lg font-semibold shadow-md cursor-pointer">
+        <a
+          href="https://hpspros.co.uk/contact-us"
+          className="inline-block bg-orange-500 hover:bg-orange-600 transition px-7 py-3 rounded-lg font-semibold shadow-md cursor-pointer"
+        >
           Contact Us
-        </div>
-
+        </a>
       </div>
     </section>
   );

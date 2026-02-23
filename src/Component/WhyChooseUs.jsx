@@ -50,9 +50,11 @@ function WhyChooseUs() {
               ))}
             </ul>
 
-            <button className="bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md text-white font-semibold shadow-md">
+            <a
+            href="tel:07852121346"
+             className="bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md text-white font-semibold shadow-md">
               Book Now
-            </button>
+            </a>
           </div>
 
           {/* RIGHT IMAGE */}
