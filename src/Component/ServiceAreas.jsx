@@ -23,7 +23,7 @@ function ServiceAreas() {
   ];
 
   return (
-    <section className="bg-[#1e3a63] py-24 text-white">
+    <section className="bg-[#1e3a63] py-24 text-white sm:py-0">
       <div className="max-w-6xl mx-auto px-6 text-center">
 
         {/* Header */}

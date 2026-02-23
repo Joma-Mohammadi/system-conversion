@@ -7,8 +7,8 @@ import { LuDollarSign } from "react-icons/lu";
 
 function Features() {
   return (
-    <section className="bg-gray-100 py-20">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="bg-gray-100 py-20 sm:py-20">
+      <div className="max-w-6xl mx-auto px-6 ">
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10 text-center">
           
           <div className="flex flex-col items-center p-6 bg-white rounded-lg border border-gray-200 shadow-sm sm:border-0 sm:shadow-none sm:bg-transparent">
@@ -17,7 +17,7 @@ function Features() {
             </div>
             <h3 className="font-semibold text-slate-800">
               Improved Energy Efficiency
-            </h3>
+            </h3>l
             <p className="text-sm text-gray-500 mt-2">
               Lower bills with modern heating
             </p>

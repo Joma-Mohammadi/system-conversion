@@ -6,7 +6,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 function Hero() {
   return (
-    <section className="relative w-full min-h-[600px] md:min-h-[650px] lg:min-h-screen flex items-center">
+    <section className="relative w-full min-h-[600px] md:min-h-[650px] lg:min-h-screen flex items-center sm:py-0">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${bgImage})` }}
@@ -48,16 +48,13 @@ function Hero() {
             </div>
           </div>
 
-          <button
-            onClick={() =>
-              (window.location.href =
-                "https://hpspros.co.uk/services/water-heaters")
-            }
-            className="flex items-center justify-center sm:justify-start gap-2 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md text-sm sm:text-base font-semibold "
+          <a
+            href="tel:07852121346"
+            className="flex items-center justify-center sm:justify-start gap-2 bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md text-sm sm:text-base font-semibold"
           >
             <BsFillTelephoneFill className="text-lg" />
             Call 07852 121 346
-          </button>
+          </a>
 
           <p className="text-gray-400 text-xs sm:text-sm mt-6">
             Free surveys and quotes — Average project completion 2-3 days
