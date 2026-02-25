@@ -3,12 +3,12 @@ import { FiCheck } from "react-icons/fi";
 
 function WhyChooseUs() {
   return (
-    <section className="bg-gray-100 py-24">
+    <section className="bg-gray-100 py-24 sm:py-10">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           {/* LEFT CONTENT */}
-          <div>
+          <div className="order-2 lg:order-1">
             <p className="text-orange-500 text-sm font-semibold mb-4 tracking-wide">
               WHY CHOOSE US
             </p>
@@ -58,7 +58,7 @@ function WhyChooseUs() {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="relative">
+          <div className="relative order-1 lg:order-2">
 
             <img
               src={engineerImage}

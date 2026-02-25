@@ -16,13 +16,19 @@ function CTASection() {
       </p>
 
       <div className="flex justify-center gap-4 flex-wrap">
-        <button className="bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md font-semibold shadow-md">
+        <a
+          href="tel:07852121346"
+          className="bg-orange-500 hover:bg-orange-600 transition px-6 py-3 rounded-md font-semibold shadow-md"
+        >
           Get a Free Quote
-        </button>
+        </a>
 
-        <button className="bg-white text-[#1e3a63] hover:bg-gray-200 transition px-6 py-3 rounded-md font-semibold">
+        <a
+          href="https://hpspros.co.uk/contact-us"
+          className="bg-white text-[#1e3a63] hover:bg-gray-200 transition px-6 py-3 rounded-md font-semibold"
+        >
           Send Message
-        </button>
+        </a>
       </div>
     </section>
   );
